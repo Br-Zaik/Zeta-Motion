@@ -1,0 +1,10 @@
+{
+  "version": "15.0.0",
+  "date": "2026-09-25",
+  "pcm_json_checks": 10,
+  "pcm_json_check_result": "passed with kotlinc/JVM and JSON test stub",
+  "android_gradle_build": "not run; Android SDK and Gradle unavailable in this environment",
+  "physical_device_tested": false,
+  "apk_generated": false,
+  "existing_workflow": "gradle testReleaseUnitTest assembleRelease"
+}

@@ -1,0 +1,23 @@
+{
+  "version": "14.0.0",
+  "date": "2026-09-25",
+  "gradle": "clean testReleaseUnitTest: BUILD SUCCESSFUL",
+  "unit_tests": {
+    "passed": 14,
+    "failed": 0
+  },
+  "render_validation": {
+    "backend": "EGL/OpenGL ES 3, Mesa software",
+    "passed": [
+      "shader compilation and linking",
+      "effect masks and seamless endpoints",
+      "paint mode isolation",
+      "14 color controls and neutral reset",
+      "3 loop modes",
+      "60 extreme displacement edge cases",
+      "3 painted-zone movements and freeze protection"
+    ]
+  },
+  "physical_device_tested": false,
+  "apk_generated": false
+}

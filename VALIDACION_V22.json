@@ -1,0 +1,13 @@
+{
+  "versionCode": 22,
+  "versionName": "22.0.0",
+  "shader_gl_es_3_compile": true,
+  "shader_link": true,
+  "previous_render_tests": "passed",
+  "natural_materials_tested": 6,
+  "natural_mask_isolation": "passed",
+  "natural_anchor_test": "passed",
+  "natural_loop_endpoints": "passed",
+  "pure_kotlin_models_compile": true,
+  "full_android_build_local": "not_run_no_local_gradle; GitHub Actions workflow included"
+}

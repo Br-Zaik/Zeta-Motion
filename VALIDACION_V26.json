@@ -1,0 +1,17 @@
+{
+  "version": "26.0.0",
+  "changes": [
+    "cache de edicion nitida edit_preview.jpg hasta 2304 px",
+    "sin pestaña Rapido",
+    "exportacion avanzada visible directamente",
+    "boton Exportar fijo",
+    "dialogo de exportacion mas alto y compacto"
+  ],
+  "checks": {
+    "shader_compile": true,
+    "shader_link": true,
+    "render_regression": true,
+    "kotlin_parser_scan": "sin errores de sintaxis detectados; dependencias Android no disponibles para compilacion aislada",
+    "full_android_build": false
+  }
+}

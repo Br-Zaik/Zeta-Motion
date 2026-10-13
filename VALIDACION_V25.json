@@ -1,0 +1,18 @@
+{
+  "versionCode": 25,
+  "versionName": "25.0.0",
+  "focus": [
+    "adaptive_sharp_preview",
+    "adaptive_60fps_interaction",
+    "direct_effect_style_picker",
+    "natural_motion_material_presets",
+    "centered_timeline_insertion",
+    "fixed_export_footer"
+  ],
+  "shader_compile": "passed",
+  "shader_link": "passed",
+  "render_regression": "passed",
+  "kotlin_syntax_spot_check": "passed",
+  "full_android_build": "GitHub Actions",
+  "notes": "No shader regression. Preview resolution is adaptive (2048-3072) and interaction frame cadence is adaptive up to 60 fps; exact smoothness still depends on device/GPU and number of active effects."
+}

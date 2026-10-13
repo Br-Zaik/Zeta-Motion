@@ -1,0 +1,14 @@
+{
+  "timeline_capcut": "implemented",
+  "checks": {
+    "card_uses_activate_or_select": true,
+    "explicit_plus_adds_copy": true,
+    "long_press_move": true,
+    "left_resize_handle": true,
+    "right_resize_handle": true,
+    "preview_resize_without_compose_state_commit": true,
+    "whole_video_reuses_selected": true,
+    "dynamic_overlap_lanes": true,
+    "version_20": true
+  }
+}

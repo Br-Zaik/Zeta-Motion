@@ -1,0 +1,16 @@
+{
+  "version": "v19",
+  "base": "v18",
+  "changes": [
+    "timeline_drag_local_state",
+    "preview_throttle_30fps",
+    "stable_clip_lanes",
+    "gpu_translation",
+    "frame_synced_playhead",
+    "no_loop_clock_reset_on_clip_move"
+  ],
+  "status": "passed_static_and_render_checks",
+  "render_checker": "passed",
+  "kotlin_parse_check": "no syntax/expecting errors found; Android/Compose references unavailable in local kotlinc classpath",
+  "notes": "Full Android Gradle build should run in the included GitHub Actions workflow."
+}

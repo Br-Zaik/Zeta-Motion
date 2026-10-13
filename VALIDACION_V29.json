@@ -1,0 +1,13 @@
+{
+  "version": "29.0.0",
+  "checks": {
+    "duplicate_same_start_and_duration": true,
+    "duplicate_first_free_track_below": true,
+    "timeline_snap_guides": true,
+    "simple_timeline_titles": true,
+    "bottom_scrub_slider_removed_when_timeline_visible": true,
+    "timeline_playhead_scrubbable": true,
+    "version_code": 29
+  },
+  "notes": "Validación de estructura y shader/render local. Build Android completo se ejecuta por GitHub Actions incluido."
+}

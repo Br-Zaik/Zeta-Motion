@@ -1,0 +1,11 @@
+{
+  "version": "17.0.0",
+  "date": "2026-10-01",
+  "shader_render_tests": "passed: tools/check_render.py",
+  "effect_timeline_smoke_test": "passed with kotlinc",
+  "android_gradle_build": "not run locally; Gradle distribution unavailable in this environment",
+  "physical_device_tested": false,
+  "apk_generated": false,
+  "new_unit_tests": "EffectTimelineTest",
+  "existing_workflow": "gradle testReleaseUnitTest assembleRelease"
+}

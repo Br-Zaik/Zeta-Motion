@@ -1,0 +1,13 @@
+{
+  "version": "30.0.0",
+  "versionCode": 30,
+  "shader_compile": true,
+  "shader_link": true,
+  "localized_effects": ["bokeh", "sparkle", "lightleak", "waterfall", "reflect", "blackaura", "inkdrip", "dramatic"],
+  "localized_effects_mask_isolation": true,
+  "shore_mask_isolation": true,
+  "shore_natural_color": true,
+  "loop_seam": true,
+  "legacy_render_regressions": true,
+  "core_kotlin_compile": true
+}

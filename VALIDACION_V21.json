@@ -1,0 +1,20 @@
+{
+  "version": 21,
+  "versionName": "21.0.0",
+  "shader_compile": true,
+  "shader_link": true,
+  "existing_render_regressions": "passed",
+  "parallax_2_5d": {
+    "visible_in_painted_zones": true,
+    "no_leak_outside_zones": true,
+    "seamless_t0_t1": true,
+    "freeze_respected": true
+  },
+  "soft_mesh": {
+    "visible_in_mask": true,
+    "no_leak_outside_mask": true,
+    "seamless_t0_t1": true
+  },
+  "kotlin_pure_models_compile": true,
+  "android_full_build": "delegated_to_GitHub_Actions_workflow"
+}

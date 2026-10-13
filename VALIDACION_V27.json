@@ -1,0 +1,16 @@
+{
+  "version": "27.0.0",
+  "checks": {
+    "shader_compile_link": "passed",
+    "render_regressions": "passed",
+    "export_dialog_forced_height_removed": true,
+    "export_body_scroll_only_when_needed": true,
+    "export_button_fixed_visible": true,
+    "timeline_edge_handle_dp": 28,
+    "timeline_center_reserves_handle_space": true,
+    "left_edge_can_shrink_from_zero": true,
+    "right_edge_can_shrink_from_end": true,
+    "resize_uses_fixed_drag_anchor": true
+  },
+  "notes": "No se ejecutó un build Android completo en este entorno; el proyecto mantiene GitHub Actions para compilar el APK."
+}

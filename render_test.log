@@ -1,0 +1,15 @@
+fondo.vert compile 1 
+fondo.frag compile 1 
+link 1 
+{"render_tests": "passed", "cases": [{"effect": "sky", "masked_change": 59.268229166666664, "outside_max": 0, "loop": true}, {"effect": "water", "masked_change": 1.6964952256944446, "outside_max": 0, "loop": true}, {"effect": "dispersion", "masked_change": 9.428960503472222, "outside_max": 0, "loop": true}], "camera_modes": 6, "element_types": 6}
+paint mode isolation: passed
+14 color controls and neutral reset: passed
+3 distinct motion modes, phase, 3 cycles and seamless endpoints: passed
+edge stretch regression: 3 modes, 5 displacement directions, 4 phases: passed
+3 painted-zone motions and freeze protection: passed
+v21 parallax 2.5D + soft mesh + seamless endpoints: passed
+v22 natural motion: 6 materials + mask + anchor + seamless endpoints: passed
+v24 seasonal leaves: green/dry/autumn/christmas palettes + seamless loop: passed
+v30 localized effects: 8 new effects + natural shore mask + seamless loops: passed
+v33 5 ray styles + 4 sun highlights + 3 depth styles + 3D simulated orbit: passed
+v33 4 aura colors + 4 flame colors + hair/cloth inertia and elasticity: passed

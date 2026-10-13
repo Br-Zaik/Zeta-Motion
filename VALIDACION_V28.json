@@ -1,0 +1,19 @@
+{
+  "version": "28.0.0",
+  "checks": {
+    "shader_compile_link": "passed",
+    "render_regressions": "passed",
+    "duplicate_effect_clip_action": true,
+    "plus_duplicates_selected_clip": true,
+    "duplicate_preserves_effect_configuration": true,
+    "single_resolution_selector": true,
+    "original_toggle_returns_to_1080p": true,
+    "2k_long_side": 2048,
+    "qhd_long_side": 2560,
+    "stable_edit_texture_no_background_swap": true,
+    "edit_preview_max_side": 2560,
+    "batched_zoom_pan_invalidation": true,
+    "version_code": 28
+  },
+  "notes": "Shader y regresiones de render ejecutados localmente. No se ejecutó el build Android completo; GitHub Actions incluido compila tests + APK release."
+}

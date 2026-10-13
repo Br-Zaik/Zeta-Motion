@@ -1,0 +1,16 @@
+{
+  "versionCode": 24,
+  "versionName": "24.0.0",
+  "focus": [
+    "quick_environment_library",
+    "wind_weather_wave_styles",
+    "seasonal_leaf_palettes"
+  ],
+  "model_compile": "passed",
+  "shader_compile": "passed",
+  "shader_link": "passed",
+  "render_regression": "passed",
+  "seasonal_leaf_render_test": "passed",
+  "full_android_build": "GitHub Actions",
+  "notes": "One-tap style families for wind/rain/snow/waves plus procedural green/dry/autumn/christmas leaf palettes; no external textures added."
+}

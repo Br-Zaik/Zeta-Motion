@@ -1,0 +1,12 @@
+{
+  "version": 18,
+  "change": "Importación alternativa desde Archivos mediante Android SAF OpenDocument",
+  "checks": {
+    "home_has_open_document": true,
+    "gallery_kept": true,
+    "duration_dialog_kept": true,
+    "no_storage_permission_added": true,
+    "project_copy_flow_unchanged": true,
+    "render_tests": "passed"
+  }
+}

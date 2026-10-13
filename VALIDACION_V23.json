@@ -1,0 +1,9 @@
+{
+  "version": 23,
+  "focus": ["instant_preview", "timeline_vertical_tracks", "timeline_persistence"],
+  "render_regression": "passed",
+  "shader_compile": "passed",
+  "effect_clip_model_compile": "passed",
+  "full_android_build": "GitHub Actions",
+  "notes": "Thumbnail inmediato + placeholder hasta primer frame GL; preview HD en segundo plano; pistas manuales persistentes y scroll vertical."
+}

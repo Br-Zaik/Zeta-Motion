@@ -1,0 +1,19 @@
+{
+  "version": 32,
+  "source_based_on": "v31",
+  "checked_on": "2026-10-11",
+  "shader_compile": true,
+  "shader_link": true,
+  "shader_regressions": "passed",
+  "kotlin_parser_errors": 0,
+  "effect_definitions_preserved": 62,
+  "duplicate_effect_ids_introduced": 0,
+  "android_gradle_build": "not_run_android_sdk_unavailable",
+  "device_performance_test": "not_run",
+  "known_limits": [
+    "no dynamic preview resolution swap",
+    "shader inertia not full physics simulation",
+    "effects not individually reauthored",
+    "R8 remains disabled pending build/regression"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": 35,
+  "base": "ZetaMotion_v34_GitHub_Gradle89_Arreglado",
+  "kotlin_syntax_errors": 0,
+  "effect_count": 66,
+  "legacy_effects_preserved": 62,
+  "new_effect_ids": [
+    "blast",
+    "blood",
+    "slash",
+    "reveal"
+  ],
+  "extended_existing": [
+    "smoke"
+  ],
+  "new_scene_presets": 8,
+  "shader_opengl_es3_compile": "passed (software Mesa/EGL)",
+  "mask_protection_tests": "passed",
+  "loop_0_1_equal": "passed for all variants at test sizes",
+  "variants_tested": {
+    "smoke": 5,
+    "blast": 4,
+    "blood": 3,
+    "slash": 4,
+    "reveal": 3
+  },
+  "android_gradle_build": "NOT_RUN (SDK/Gradle not available in environment)",
+  "android_device_performance": "NOT_RUN",
+  "play_store_publish_ready": false
+}

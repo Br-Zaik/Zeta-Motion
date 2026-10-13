@@ -1,0 +1,23 @@
+{
+  "version": "31.0.0",
+  "versionCode": 31,
+  "changes": [
+    "navigation_kept_in_animar",
+    "tools_visible_in_rows",
+    "effects_catalog_not_duplicate_motion_tools",
+    "brush_feather_visible",
+    "per_clip_strength_persisted_and_rendered"
+  ],
+  "test_execution": {
+    "kotlin_effect_timeline_smoke": "passed",
+    "shader_glsl_compile": "passed",
+    "shader_glsl_link": "passed",
+    "render_regressions": "passed",
+    "android_apk_build": "not_run_no_android_sdk_or_gradle",
+    "android_device_test": "not_run_no_android_device"
+  },
+  "limitations": [
+    "global_effect_params_still_shared_between_clips_except_strength",
+    "cannot_assert_device_ui_or_export_without_installing_apk"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": 33,
+  "shader_compiled": true,
+  "shader_linked": true,
+  "render_tests": "passed",
+  "new_v33": {
+    "ray_styles": 5,
+    "sunpath_styles": 4,
+    "energy_styles": 4,
+    "flame_styles": 4,
+    "parallax_styles": 3,
+    "camera_modes": 6,
+    "natural_dynamic_materials": [
+      "hair",
+      "cloth"
+    ]
+  },
+  "kotlin_syntax_errors": 0,
+  "effect_ids_preserved": 62,
+  "android_apk_compilation": "not_tested",
+  "device_performance": "not_tested"
+}
