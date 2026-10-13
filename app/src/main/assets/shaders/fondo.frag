@@ -1383,7 +1383,7 @@ vec3 zetaFlame(vec3 col, vec2 P, vec2 uv) {
     if (hN < -0.05 || hN > 1.25) return col;
     // Columna de fuego: la máscara en la misma x, medida dentro de la zona pintada.
     float sampleY = clamp(uv.y, box.y + size.y * 0.5, box.w);
-    float jitter = (vnoise(vec2(uv.y * 18.0 - uT * 0.0, uv.x * 9.0)) - 0.5) * size.x * 0.12 * clamp(hN, 0.0, 1.0);
+    float jitter = (vnoise(vec2(uv.y * 18.0, uv.x * 9.0)) - 0.5) * size.x * 0.12 * clamp(hN, 0.0, 1.0);
     vec2 su = vec2(uv.x + jitter, sampleY);
     float area = maskValue(su, uMaskFlame, maskLayer(su, 2), 1.0);
     area *= 1.0 - maskLayer(uv, 0) * 0.85 * step(uv.y, box.y);   // no tapa al personaje por encima de la zona
@@ -1403,7 +1403,7 @@ vec3 zetaFlame(vec3 col, vec2 P, vec2 uv) {
     q.x -= lean * 2.0;
     // Ascenso continuo con dos fases: el fuego sube sin cortes al cerrar el bucle.
     vec2 rise = vec2(0.0, 2.4);
-    float wob = (vnoise(q * 0.45 + 11.0 + vec2(0.0, progress * 1.1)) - 0.5) * (0.5 + 1.8 * turb);
+    float wob = (vnoise(q * 0.45 + 11.0 + vec2(cos(ph), sin(ph)) * 0.35) - 0.5) * (0.5 + 1.8 * turb);
     float na = fbm3(q + rise * progress + vec2(wob, 0.0));
     float nb = fbm3(q + rise * (progress - 1.0) + vec2(wob, 0.0));
     float n = contrastFix(mix(na, nb, progress), progress);
